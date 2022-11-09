@@ -1,0 +1,16 @@
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\bin\Debug\xunit.runner.utility.net452.dll
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\bin\Debug\xunit.abstractions.dll
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\bin\Debug\PersonTests.dll
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\bin\Debug\PersonTests.pdb
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\bin\Debug\xunit.assert.dll
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\bin\Debug\xunit.core.dll
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\bin\Debug\xunit.execution.desktop.dll
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\obj\Debug\PersonTests.csproj.AssemblyReference.cache
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\obj\Debug\PersonTests.csproj.SuggestedBindingRedirects.cache
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\obj\Debug\PersonTests.csproj.CoreCompileInputs.cache
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\obj\Debug\PersonTests.csproj.CopyComplete
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\obj\Debug\PersonTests.dll
+C:\Users\YShakhshir\Desktop\BE Internship\StudentProfessor\Task1\PersonTests\obj\Debug\PersonTests.pdb
