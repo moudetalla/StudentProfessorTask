@@ -123,6 +123,15 @@
         "build": {
           "build/net20/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Task1/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Task1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Task1.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.8/win": {
@@ -246,6 +255,15 @@
         "type": "package",
         "build": {
           "build/net20/xunit.runner.visualstudio.props": {}
+        }
+      },
+      "Task1/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Task1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Task1.dll": {}
         }
       }
     },
@@ -371,6 +389,15 @@
         "build": {
           "build/net20/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Task1/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Task1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Task1.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.8/win-x86": {
@@ -494,6 +521,15 @@
         "type": "package",
         "build": {
           "build/net20/xunit.runner.visualstudio.props": {}
+        }
+      },
+      "Task1/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Task1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Task1.dll": {}
         }
       }
     }
@@ -715,11 +751,17 @@
         "xunit.runner.visualstudio.2.4.1.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Task1/1.0.0": {
+      "type": "project",
+      "path": "../Task1/Task1.csproj",
+      "msbuildProject": "../Task1/Task1.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
       "Microsoft.NET.Test.Sdk >= 16.2.0",
+      "Task1 >= 1.0.0",
       "coverlet.collector >= 1.0.1",
       "xunit >= 2.4.1",
       "xunit.extensibility.core >= 2.4.1",
@@ -727,20 +769,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\YShakhshir\\.nuget\\packages\\": {}
+    "C:\\Users\\Asal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\YShakhshir\\Desktop\\BE Internship\\StudentProfessor\\Task1\\PersonTests\\PersonTests.csproj",
+      "projectUniqueName": "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\PersonTests\\PersonTests.csproj",
       "projectName": "PersonTests",
-      "projectPath": "C:\\Users\\YShakhshir\\Desktop\\BE Internship\\StudentProfessor\\Task1\\PersonTests\\PersonTests.csproj",
-      "packagesPath": "C:\\Users\\YShakhshir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\YShakhshir\\Desktop\\BE Internship\\StudentProfessor\\Task1\\PersonTests\\obj\\",
+      "projectPath": "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\PersonTests\\PersonTests.csproj",
+      "packagesPath": "C:\\Users\\Asal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\PersonTests\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\YShakhshir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -752,7 +794,11 @@
       },
       "frameworks": {
         "net48": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\Task1\\Task1.csproj": {
+              "projectPath": "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\Task1\\Task1.csproj"
+            }
+          }
         }
       }
     },

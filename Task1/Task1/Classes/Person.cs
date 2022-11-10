@@ -9,16 +9,15 @@ namespace Task1.Classes
     public class Person
     {
 
-        string _name;
-        int _age;
+        
 
         public Person(string name)
         {
-            _name = name;
+            Name = name;
         }
 
-        public string Name { get => _name; set => _name = value; }
-        public int Age { get => _age; set => _age = value; }
+        public string Name { get ; set; }
+        public int Age { get; set; }
 
 
         public void SetAge(int age)

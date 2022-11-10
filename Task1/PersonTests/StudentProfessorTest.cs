@@ -6,7 +6,7 @@ namespace PersonTests
     public class StudentProfessorTest
     {
         [Fact]
-        public void PersonSayHi()
+        public void PersonTest_SayHello()
         {
 
             //Arrange
@@ -18,36 +18,69 @@ namespace PersonTests
             var result = person.Greet();
 
             //Assert
-            Assert.Equal(result, $"Hello {person.Name}");
+            Assert.Equal($"Hello {person.Name}", result);
+
+
+        }
+
+        [Fact]
+        public void StudentTest_SayHelloToStudent()
+        {
+            var student = new Student("Ahmad");
+            
+
+
+            var nameResult = student.Greet();
+
+
+            
+            Assert.Equal($"Hello {student.Name}", nameResult);
 
 
         }
 
 
-
-
         [Fact]
-        public void StudentTest()
+        public void StudentTest_PrintTheAge()
         {
             var student = new Student("Ahmad");
             student.SetAge(18);
 
 
             var result = student.ShowAge();
-            var nameResult = student.Greet();
+            
 
 
-            Assert.Equal(result, $"My age is: {student.Age} years old");
-            Assert.Equal(nameResult, $"Hello {student.Name}");
+            Assert.Equal($"My age is: {student.Age} years old", result);
+            
 
 
         }
 
 
 
+        [Fact]
+        public void ProfessorTest_SayHelloToProfessor()
+        {
+            var prof = new Professor("Saleh");
+
+            
+
+
+            
+            var nameResult = prof.Greet();
+
+            
+            Assert.Equal($"Hello {prof.Name}", nameResult);
+
+
+
+
+        }
+
 
         [Fact]
-        public void ProfessorTest()
+        public void ProfessorTest_PrintTheAge()
         {
             var prof = new Professor("Saleh");
 
@@ -55,10 +88,10 @@ namespace PersonTests
 
 
             var result = prof.Age;
-            var nameResult = prof.Greet();
+            
 
-            Assert.Equal(result, 48);
-            Assert.Equal(nameResult, $"Hello {prof.Name}");
+            Assert.Equal(48, result);
+            
 
 
 

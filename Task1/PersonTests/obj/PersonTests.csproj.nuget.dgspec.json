@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\YShakhshir\\Desktop\\BE Internship\\StudentProfessor\\Task1\\PersonTests\\PersonTests.csproj": {}
+    "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\PersonTests\\PersonTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\YShakhshir\\Desktop\\BE Internship\\StudentProfessor\\Task1\\PersonTests\\PersonTests.csproj": {
+    "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\PersonTests\\PersonTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\YShakhshir\\Desktop\\BE Internship\\StudentProfessor\\Task1\\PersonTests\\PersonTests.csproj",
+        "projectUniqueName": "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\PersonTests\\PersonTests.csproj",
         "projectName": "PersonTests",
-        "projectPath": "C:\\Users\\YShakhshir\\Desktop\\BE Internship\\StudentProfessor\\Task1\\PersonTests\\PersonTests.csproj",
-        "packagesPath": "C:\\Users\\YShakhshir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\YShakhshir\\Desktop\\BE Internship\\StudentProfessor\\Task1\\PersonTests\\obj\\",
+        "projectPath": "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\PersonTests\\PersonTests.csproj",
+        "packagesPath": "C:\\Users\\Asal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\PersonTests\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\YShakhshir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +27,11 @@
         },
         "frameworks": {
           "net48": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\Task1\\Task1.csproj": {
+                "projectPath": "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\Task1\\Task1.csproj"
+              }
+            }
           }
         }
       },
@@ -67,6 +71,21 @@
         "win-x86": {
           "#import": []
         }
+      }
+    },
+    "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\Task1\\Task1.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\Task1\\Task1.csproj",
+        "projectName": "Task1",
+        "projectPath": "C:\\Users\\Asal\\Desktop\\studentprofessortask\\StudentProfessorTask\\Task1\\Task1\\Task1.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
       }
     }
   }
